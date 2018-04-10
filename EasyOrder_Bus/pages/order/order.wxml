@@ -1,0 +1,6 @@
+<!--桌号导航-->
+<view class='desk_num_list'>
+  <button>1号桌</button>
+  <button>2号桌</button>
+</view>
+<view></view>

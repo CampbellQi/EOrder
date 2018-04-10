@@ -1,0 +1,38 @@
+
+    <scroll-view class='menu_classfiy' scroll-x>
+      <block wx:for="{{classifyArray}}" wx:key="classifyArrayId">
+          <block wx:if="{{item.id==selClassifyId}}">
+              <button style='background-color:gray' bindtap='classifyTap' data-classifyid='{{item.id}}'>
+                {{item.name}}
+              </button>
+          </block>
+          <block wx:else>
+              <button bindtap='classifyTap' data-classifyid='{{item.id}}'>{{item.name}}</button>
+          </block>
+      </block>
+    </scroll-view>
+  <view class='menu_list'>
+    <block wx:for="{{menuItemArray}}" wx:for-item="menuItem" wx:key="menuItemArrayId">
+      <view class="menu_item">
+          <text class='menu_item_price'>¥{{menuItem.price}}/{{menuItem.unit}}</text>
+          <text class='menu_item_name'>{{menuItem.name}}</text>
+          <image mode='widthFix' bindtap="bindViewTap" src='{{menuItem.image}}'></image> 
+          <!-- 数量-->
+          <view class='menu_item_count'>
+            <image mode='scaleToFill' src='../../images/add.png' bindtap='countEdit' data-menu_item_id='{{menuItem.id}}' data-edit='1'></image>
+            <text>{{menuItem.count}}</text>
+            <image src='../../images/reduce.png' bindtap='countEdit' data-menu_item_id='{{menuItem.id}}' data-edit='0'></image>
+          </view>
+      </view>
+    </block>
+  </view>
+  
+  <view class='menu_clearing'>
+        <navigator url='../../pages/order/order' open-type='navigate'>
+            <image src='../../images/cart.png'></image>
+        </navigator>
+        <text class='menu_clearing_count'>{{allItemCount}}</text>
+        <text class='menu_clearing_price'>¥{{totalPrice}}</text>
+      
+      <button>点完了</button>
+  </view>

@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/menu/menu",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/order/order"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#252525",
+    "navigationBarTitleText": "锅夫人",
+    "navigationBarTextStyle":"white"
+  }
+}

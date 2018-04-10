@@ -1,0 +1,35 @@
+page{
+
+}
+.order_list_item{
+  display: flex;
+  left: 0px;
+  margin-bottom: 5px;
+  background-color: #eeeeee;
+}
+
+.order_list_item_info{
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.order_list_item_info text{
+  display: block;
+  margin-bottom: 2px;
+}
+.order_list_item image{
+  position: relative;
+  width: 85px;
+  height: 85px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.order_list_item text{
+  font-size: 12px;
+  color: gray;
+}
+
+.order_list_item view{ 
+  height: 20px;
+}

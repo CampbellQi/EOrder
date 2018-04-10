@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/order/order",
+    "pages/index/index",
+    
+    "pages/logs/logs",
+    "pages/shop/shopInfo"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#252525",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color": "#a9b7b7",
+    "selectedColor": "#ffffff",
+    "backgroundColor":"#000000",
+    "borderStyle": "white",
+    "list":[{
+      "selectedIconPath": "images/tabbar_order_waiting_sel.png",
+      "iconPath": "images/tabbar_order_waiting.png",
+      "pagePath":"pages/index/index",
+      "text":"待确认"
+    },
+    {
+      "selectedIconPath": "images/tabbar_order_onway_sel.png",
+      "iconPath": "images/tabbar_order_onway.png",
+      "pagePath": "pages/order/order",
+      "text": "待烹制"
+    },
+    {
+      "selectedIconPath": "images/tabbar_shop_sel.png",
+      "iconPath": "images/tabbar_shop.png",
+      "pagePath": "pages/shop/shopInfo",
+      "text": "店铺"
+    }
+
+    ]
+  }
+}
