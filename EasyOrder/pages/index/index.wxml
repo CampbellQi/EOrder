@@ -7,7 +7,8 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto" bindtap='goMenu'>{{motto}}</text>
+  <view class='list_item'>
+    <text>过往用餐</text>
+    <image src='../../images/right_arrow.png'></image>
   </view>
 </view>

@@ -11,5 +11,31 @@
     "navigationBarBackgroundColor": "#252525",
     "navigationBarTitleText": "锅夫人",
     "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#ffffff",
+    "backgroundColor": "#000000",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/tabbar_menu_sel.png",
+        "iconPath": "images/tabbar_menu.png",
+        "pagePath": "pages/menu/menu",
+        "text": "菜单"
+      },
+      {
+        "selectedIconPath": "images/tabbar_order_sel.png",
+        "iconPath": "images/tabbar_order.png",
+        "pagePath": "pages/order/order",
+        "text": "已点"
+      },
+      {
+        "selectedIconPath": "images/tabbar_mine_sel.png",
+        "iconPath": "images/tabbar_mine.png",
+        "pagePath": "pages/index/index",
+        "text": "我的"
+      }
+    ]
   }
 }

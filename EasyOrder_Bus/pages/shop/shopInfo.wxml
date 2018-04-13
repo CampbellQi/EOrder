@@ -1,0 +1,19 @@
+<!--头像-->
+<view class='icon'>  
+  <image class='icon_bg' src='../../images/header-bg.jpg' mode='aspectFill'></image>
+  <image class='icon_header' src='../../images/avater.jpg'></image>
+  <text>锅夫人</text>
+</view>
+<!--相关列表-->
+<view class='list_item'>
+  <text>今日营业额</text>
+  <image src='../../images/right_arrow.png'></image>
+</view>
+<view class='list_item'>
+  <text>菜谱管理</text>
+  <image src='../../images/right_arrow.png'></image>
+</view>
+<view class='list_item'>
+  <text>绑定账号</text>
+  <image src='../../images/right_arrow.png'></image>
+</view>

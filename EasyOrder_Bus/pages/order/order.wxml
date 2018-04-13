@@ -3,4 +3,16 @@
   <button>1号桌</button>
   <button>2号桌</button>
 </view>
-<view></view>
+<view class='order_list'>
+  <view class='order_list_item'>
+    <button>1号桌</button>
+    <button>1号桌</button>
+    <button>1号桌</button>
+    <button>1号桌</button>
+    <button>1号桌</button>
+    <button>1号桌</button>
+  </view>
+  <view class='order_list_item1'>
+    <button>1号桌</button>
+  </view>
+</view>

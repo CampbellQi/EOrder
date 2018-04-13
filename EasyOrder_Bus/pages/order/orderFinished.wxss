@@ -7,21 +7,24 @@
   left: 0px;
   margin-bottom: 5px;
   background-color: #eeeeee;
+  height: 65px;
 }
 
 .order_list_item_info{
   margin-left: 5px;
   margin-top: 5px;
+  width: calc(100% - 64px);
 }
 
 .order_list_item_info text{
   display: block;
   margin-bottom: 2px;
+  
 }
 .order_list_item image{
   position: relative;
-  width: 85px;
-  height: 85px;
+  width: 65px;
+  height: 65px;
   flex-grow: 0;
   flex-shrink: 0;
 }
@@ -35,23 +38,17 @@
   height: 20px;
 }
 
-.status{
-  background-color: black;
-  height: 40px;
-  bottom: 0px;
-  position: fixed;
-  width: 100%;
-  justify-content:space-between;
+
+.order_item_handle{
   display: flex;
-  font-size: 14px;
-  color: white;
-  line-height: 40px;
-  padding-left: 5px;
+  justify-content:space-between;
 }
 
-.status_name{
-  padding-left: px;
-  background-color: green;
-  width: 80px;
-  text-align: center;
+.order_item_handle button{
+  font-size: 12px;
+  line-height: 20px;
+  height: 20px;
+  margin-right: 5px;
+  display: inline-block;
 }
+

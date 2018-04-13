@@ -1,22 +1,26 @@
-<view>
-    <view class='order_list_item'>
-      <image mode='aspectFill' src='../../images/fire.jpg'></image>
-      <view class='order_list_item_info'>
-          <text>清汤鸳鸯锅</text>
-          <text>数量：1份</text>
-          <text>状态：准备中</text>
-          <text>价格： ¥49.0</text>
-      </view>
+<view class='order_list'>
+  <view class='order_list_item'>
+    <image mode='aspectFill' src='../../images/fire.jpg'></image>
+    <view class='order_list_item_info'>
+      <text>清汤鸳鸯锅</text>
+      <text>数量：1份</text>
+      <text>状态：准备中</text>
+      <text>价格： ¥49.0</text>
     </view>
-    
-    <view class='order_list_item'>
-      <image mode='aspectFill' src='../../images/fire.jpg'></image>
-      <view class='order_list_item_info'>
-          <text>清汤鸳鸯锅</text>
-          <text>数量：1份</text>
-          <text>状态：准备中</text>
-          <text>价格： ¥49.0</text>
-      </view>
+  </view>
+
+  <view class='order_list_item'>
+    <image mode='aspectFill' src='../../images/maodu.jpg'></image>
+    <view class='order_list_item_info'>
+      <text>清汤鸳鸯锅</text>
+      <text>数量：1份</text>
+      <text>状态：准备中</text>
+      <text>价格： ¥49.0</text>
     </view>
- 
+  </view>
+
+</view>
+<view class='status'>
+  <text class='status_expense'>消费：¥96.00</text>
+  <text class='status_name'>待确认</text>
 </view>

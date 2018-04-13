@@ -1,0 +1,17 @@
+<view class='order_list'>
+  <view class='order_list_item'>
+    <image mode='aspectFill' src='../../images/fire.jpg'></image>
+    <view class='order_list_item_info'>
+      <text>1号桌</text>
+      <text>消费： ¥49.0</text>
+      <view class='order_item_handle'>
+        <text>2018/04/15 17:30</text>
+        <view>
+          <button>明细</button>
+          <button>关闭</button>
+        </view>
+        
+      </view>
+    </view>
+  </view>
+</view>
