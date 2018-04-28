@@ -5,12 +5,12 @@
 </view>
 <view class='order_list'>
   <view class='order_list_item'>
-    <button>1号桌</button>
-    <button>1号桌</button>
-    <button>1号桌</button>
-    <button>1号桌</button>
-    <button>1号桌</button>
-    <button>1号桌</button>
+    <button>回锅肉</button>
+    <button>腐竹</button>
+    <button>豆皮</button>
+    <button>黄瓜</button>
+    <button>木耳</button>
+    <button>青菜</button>
   </view>
   <view class='order_list_item1'>
     <button>1号桌</button>
