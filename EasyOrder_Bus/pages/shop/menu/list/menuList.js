@@ -1,4 +1,4 @@
-// pages/shop/shopInfo.js
+// pages/shop/menu/list/menuList.js
 Page({
 
   /**
@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+
+  showClassifyManager: function () {
+    wx.navigateTo({
+      url: '../classify/menuClassify',
+    })
   }
 })

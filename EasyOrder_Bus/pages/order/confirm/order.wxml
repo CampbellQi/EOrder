@@ -12,7 +12,4 @@
     <button>木耳</button>
     <button>青菜</button>
   </view>
-  <view class='order_list_item1'>
-    <button>1号桌</button>
-  </view>
 </view>

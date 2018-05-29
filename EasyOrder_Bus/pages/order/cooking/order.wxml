@@ -1,0 +1,15 @@
+<!--桌号导航-->
+<view class='desk_num_list'>
+  <button>1号桌</button>
+  <button>2号桌</button>
+</view>
+<view class='order_list'>
+  <view class='order_list_item'>
+    <button>回锅肉</button>
+    <button>腐竹</button>
+    <button>豆皮</button>
+    <button>黄瓜</button>
+    <button>木耳</button>
+    <button>青菜</button>
+  </view>
+</view>

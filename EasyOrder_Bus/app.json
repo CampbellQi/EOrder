@@ -1,11 +1,13 @@
 {
   "pages":[
-    "pages/order/order",
-    "pages/order/orderFinished",
+    "pages/order/confirm/order",
+    "pages/order/cooking/order",
+    "pages/order/finished/orderFinished",
     "pages/index/index",
-    
     "pages/logs/logs",
-    "pages/shop/shopInfo"
+    "pages/shop/info/shopInfo",
+    "pages/shop/menu/list/menuList",
+    "pages/shop/menu/classify/menuClassify"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -21,25 +23,25 @@
     "list":[{
       "selectedIconPath": "images/tabbar_order_waiting_sel.png",
       "iconPath": "images/tabbar_order_waiting.png",
-      "pagePath":"pages/index/index",
+      "pagePath":"pages/order/confirm/order",
       "text":"待确认"
     },
     {
       "selectedIconPath": "images/tabbar_order_onway_sel.png",
       "iconPath": "images/tabbar_order_onway.png",
-      "pagePath": "pages/order/order",
+      "pagePath": "pages/order/cooking/order",
       "text": "待烹制"
     },
     {
       "selectedIconPath": "images/tabbar_finished_sel.png",
       "iconPath": "images/tabbar_finished.png",
-      "pagePath": "pages/order/orderFinished",
+      "pagePath": "pages/order/finished/orderFinished",
       "text": "已完成"
     },
     {
       "selectedIconPath": "images/tabbar_shop_sel.png",
       "iconPath": "images/tabbar_shop.png",
-      "pagePath": "pages/shop/shopInfo",
+      "pagePath": "pages/shop/info/shopInfo",
       "text": "店铺"
     }
     ]

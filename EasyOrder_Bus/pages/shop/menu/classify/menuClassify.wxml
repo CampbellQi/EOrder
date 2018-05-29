@@ -1,0 +1,10 @@
+<view class="list">
+  <view class='item'>
+    <text>肉类</text>
+    <button>编辑</button>
+  </view>
+  <view class='item'>
+    <text>肉类</text>
+    <button>编辑</button>
+  </view>
+</view>
